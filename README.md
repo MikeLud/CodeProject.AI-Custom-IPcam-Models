@@ -12,5 +12,5 @@
 **IPcam-dark Labels:**
     - Bicycle, Bus, Car, Cat, Dog, Motorcycle, Person
     
-**license-plate.pt Labels:**
+**license-plate Labels:**
     - DayPlate, NightPlate

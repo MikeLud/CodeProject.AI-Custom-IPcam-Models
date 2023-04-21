@@ -1,16 +1,15 @@
 # CodeProject.AI-Custom-IPcam-Models
 
-**IPcam-combined Labels:**
-    - person, bicycle, car, motorcycle, bus, truck, bird, cat, dog, horse, sheep, cow, bear, deer, rabbit, raccoon, fox, skunk, squirrel, pig
+| Model          | person | Vehicle | bicycle | car | motorcycle | cat | dog | bus | bird | truck | horse | sheep | cow | bear | deer | rabbit | raccoon | fox | skunk | squirrel | pig | DayPlate | NightPlate |
+| -------------- | ------ | ------- | ------- | --- | ---------- | --- | --- | --- | ---- | ----- | ----- | ----- | --- | ---- | ---- | ------ | ------- | --- | ----- | -------- | --- | -------- | ---------- |
+| **IPcam-combined** | **L**      | \-      | **L**       | **L**   | **L**          | **L**   | **L**   | **L**   | **L**    | **L**     | **L**     | **L**     | **L**   | **L**    | **L**    | **L**      | **L**       | **L**   | **L**     | **L**        | **L**   | \-       | \-         |
+| **IPcam-general**  | **L&D**    | **L&D**     | \-      | \-  | \-         | \-  | \-  | \-  | \-   | \-    | \-    | \-    | \-  | \-   | \-   | \-     | \-      | \-  | \-    | \-       | \-  | \-       | \-         |
+| **IPcam-animal**   | \-     | \-      | \-      | \-  | \-         | **L**   | **L**   | \-  | **L**    | \-    | **L**     | **L**     | **L**   | **L**    | **L**    | **L**      | **L**       | **L**   | **L**     | **L**        | **L**   | \-       | \-         |
+| **IPcam-dark**     | **D**      | \-      | **D**       | **D**   | **D**          | **D**   | **D**   | **D**   | \-   | \-    | \-    | \-    | \-  | \-   | \-   | \-     | \-      | \-  | \-    | \-       | \-  | \-       | \-         |
+| **license-plate**  | \-     | \-      | \-      | \-  | \-         | \-  | \-  | \-  | \-   | \-    | \-    | \-    | \-  | \-   | \-   | \-     | \-      | \-  | \-    | \-       | \-  | **L**        | **D**          |
 
-**IPcam-general Labels (includes dark models images):**
-    - person, vehicle
 
-**IPcam-animal Labels:**
-    - bird, cat, dog, horse, sheep, cow, bear, deer, rabbit, raccoon, fox, skunk, squirrel, pig
+### Legend
 
-**IPcam-dark Labels:**
-    - Bicycle, Bus, Car, Cat, Dog, Motorcycle, Person
-    
-**license-plate Labels:**
-    - DayPlate, NightPlate
+- **L**: Light
+- **D**: Dark

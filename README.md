@@ -1,6 +1,6 @@
 # CodeProject.AI-Custom-IPcam-Models
 
-| Model          | person | Vehicle | bicycle | car | motorcycle | cat | dog | bus | bird | truck | horse | sheep | cow | bear | deer | rabbit | raccoon | fox | skunk | squirrel | pig | DayPlate | NightPlate |
+| Model          | person | vehicle | bicycle | car | motorcycle | cat | dog | bus | bird | truck | horse | sheep | cow | bear | deer | rabbit | raccoon | fox | skunk | squirrel | pig | DayPlate | NightPlate |
 | -------------- | ------ | ------- | ------- | --- | ---------- | --- | --- | --- | ---- | ----- | ----- | ----- | --- | ---- | ---- | ------ | ------- | --- | ----- | -------- | --- | -------- | ---------- |
 | **IPcam-combined** | **L**      | \-      | **L**       | **L**   | **L**          | **L**   | **L**   | **L**   | **L**    | **L**     | **L**     | **L**     | **L**   | **L**    | **L**    | **L**      | **L**       | **L**   | **L**     | **L**        | **L**   | \-       | \-         |
 | **IPcam-general**  | **L&D**    | **L&D**     | \-      | \-  | \-         | \-  | \-  | \-  | \-   | \-    | \-    | \-    | \-  | \-   | \-   | \-     | \-      | \-  | \-    | \-       | \-  | \-       | \-         |

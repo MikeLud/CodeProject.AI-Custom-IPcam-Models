@@ -14,3 +14,6 @@
     
 **license-plate Labels:**
     - DayPlate, NightPlate
+
+**Plate Label:**
+    - Plate

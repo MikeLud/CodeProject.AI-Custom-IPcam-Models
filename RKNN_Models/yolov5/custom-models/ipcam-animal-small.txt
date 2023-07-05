@@ -1,0 +1,17 @@
+bird
+cat
+dog
+horse
+sheep
+cow
+bear
+deer
+rabbit
+raccoon
+fox
+coyote
+possum
+skunk
+squirrel
+pig
+-

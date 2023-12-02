@@ -1,0 +1,42 @@
+Model compiled successfully in 103802 ms.
+
+Input model: yolov5m-int8.tflite
+Input size: 20.80MiB
+Output model: ./yolov5m-int8_edgetpu.tflite
+Output size: 21.64MiB
+On-chip memory used for caching model parameters: 7.12MiB
+On-chip memory remaining for caching model parameters: 0.00B
+Off-chip memory used for streaming uncached model parameters: 13.62MiB
+Number of Edge TPU subgraphs: 1
+Total number of operations: 335
+Operation log: ./yolov5m-int8_edgetpu.log
+
+Model successfully compiled but not all operations are supported by the Edge TPU. A percentage of the model will instead run on the CPU, which is slower. If possible, consider updating your model to use only operations supported by the Edge TPU. For details, visit g.co/coral/model-reqs.
+Number of operations that will run on Edge TPU: 315
+Number of operations that will run on CPU: 20
+
+Operator                       Count      Status
+
+MAX_POOL_2D                    3          Mapped to Edge TPU
+ADD                            16         Mapped to Edge TPU
+ADD                            1          More than one subgraph is not supported
+STRIDED_SLICE                  6          Mapped to Edge TPU
+STRIDED_SLICE                  3          More than one subgraph is not supported
+RESHAPE                        3          Operation is otherwise supported, but not mapped due to some unspecified limitation
+RESHAPE                        3          Mapped to Edge TPU
+PAD                            7          Mapped to Edge TPU
+CONCATENATION                  1          More than one subgraph is not supported
+CONCATENATION                  1          Operation is otherwise supported, but not mapped due to some unspecified limitation
+CONCATENATION                  15         Mapped to Edge TPU
+RESIZE_NEAREST_NEIGHBOR        2          Mapped to Edge TPU
+CONV_2D                        82         Mapped to Edge TPU
+MUL                            6          More than one subgraph is not supported
+MUL                            91         Mapped to Edge TPU
+QUANTIZE                       1          Operation is otherwise supported, but not mapped due to some unspecified limitation
+QUANTIZE                       1          More than one subgraph is not supported
+QUANTIZE                       5          Mapped to Edge TPU
+LOGISTIC                       3          More than one subgraph is not supported
+LOGISTIC                       85         Mapped to Edge TPU
+Compilation child process completed within timeout period.
+Compilation succeeded! 
+Edge TPU: export success ✅ 104.2s, saved as yolov5m-int8_edgetpu.tflite (21.6 MB)

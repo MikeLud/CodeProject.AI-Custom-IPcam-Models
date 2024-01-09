@@ -1,0 +1,3 @@
+# Classes
+nc: 3  # number of classes
+names: ['person', 'vehicle', '']  # class names

@@ -1,0 +1,32 @@
+Edge TPU Compiler version 16.0.384591198
+Input: ipcam-general_saved_model/ipcam-general_full_integer_quant.tflite
+Output: ipcam-general_saved_model/ipcam-general_full_integer_quant_edgetpu.tflite
+
+Operator                       Count      Status
+
+SUB                            2          More than one subgraph is not supported
+TRANSPOSE                      2          Mapped to Edge TPU
+TRANSPOSE                      3          Operation is otherwise supported, but not mapped due to some unspecified limitation
+LOGISTIC                       1          More than one subgraph is not supported
+LOGISTIC                       57         Mapped to Edge TPU
+QUANTIZE                       1          More than one subgraph is not supported
+QUANTIZE                       2          Mapped to Edge TPU
+SOFTMAX                        1          More than one subgraph is not supported
+ADD                            2          More than one subgraph is not supported
+ADD                            6          Mapped to Edge TPU
+PAD                            7          Mapped to Edge TPU
+RESHAPE                        1          More than one subgraph is not supported
+RESHAPE                        2          Mapped to Edge TPU
+RESHAPE                        2          Operation is otherwise supported, but not mapped due to some unspecified limitation
+RESIZE_NEAREST_NEIGHBOR        2          Mapped to Edge TPU
+MUL                            57         Mapped to Edge TPU
+MUL                            3          More than one subgraph is not supported
+CONV_2D                        63         Mapped to Edge TPU
+CONV_2D                        1          More than one subgraph is not supported
+STRIDED_SLICE                  2          More than one subgraph is not supported
+STRIDED_SLICE                  2          Operation is otherwise supported, but not mapped due to some unspecified limitation
+STRIDED_SLICE                  16         Mapped to Edge TPU
+MAX_POOL_2D                    3          Mapped to Edge TPU
+CONCATENATION                  16         Mapped to Edge TPU
+CONCATENATION                  1          Operation is otherwise supported, but not mapped due to some unspecified limitation
+CONCATENATION                  2          More than one subgraph is not supported

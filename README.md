@@ -18,5 +18,5 @@
 **Plate Label:**
     - Plate
 
-**elivery Label:**
+**Delivery Label:**
     - amazon, dhl, fedex, homedepot, ikea, lowes, target, ups, usps, walmart, garbage, & uhaul
